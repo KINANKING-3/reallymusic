@@ -34,3 +34,7 @@
   },
   "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme"
 }
+
+npm install ffmpeg-binaries
+npm install node-opus
+npm install opusscrip
