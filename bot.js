@@ -352,15 +352,5 @@ client.on('ready', () => {
 client.user.setGame(`1play | KINANKING`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
-
-client.on('ready', () => {
-console.log("Bot is online:)")
-});
-client.on('message', message => {
-if(message.content === "*&^%!join") {
-let x = client.channels.get("561284258425995278");
-if (x) x.join();
-}
-}); 
-
+ 
 client.login(process.env.BOT_TOKEN);
